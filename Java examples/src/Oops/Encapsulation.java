@@ -17,8 +17,15 @@ class Employee{
 	 private int basicsal=9000;
 	   private int incentive=700;
 	   
-	
-	   
+		public int getEmpId()
+	{
+		return EmpId;
+	}
+	 
+	public void setEmpId(int EmpId)
+	{
+		this.EmpId=EmpId;
+	}	   
 	   
 	public int getBasicsal() {
 		return basicsal;
@@ -33,13 +40,5 @@ class Employee{
 		this.incentive = incentive;
 	}
 	
-	public int getEmpId()
-	{
-		return EmpId;
-	}
-	 
-	public void setEmpId(int i)
-	{
-		this.EmpId=i;
-	}
+
 }
