@@ -14,7 +14,7 @@ public class Encapsulation {
 }
 class Employee{
 	 private int EmpId;
-	 private int basicsal=9000;
+	 private int basicsal=2000;
 	   private int incentive=700;
 	   
 	
