@@ -1,13 +1,13 @@
 package Interface;
 
-public interface Laptop {
+interface Lenovo {
 	public void copy();// abstract methods
 	public void paste();
 	public void cut();
 	public void keyboard();
 
 }
-public class Lenovo implements Laptop
+public class Laptop implements Lenovo
 {
 
 	@Override
