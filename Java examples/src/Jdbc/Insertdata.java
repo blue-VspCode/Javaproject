@@ -14,7 +14,7 @@ public class Insertdata {
             String query = "INSERT INTO Users (name, email) VALUES (?, ?)";
             PreparedStatement preparedStatement = connection.prepareStatement(query);
 
-            preparedStatement.setString(1, "Pallavi");
+            preparedStatement.setString(1, "Pallu");
             preparedStatement.setString(2, "pallavi234@gmail.com");
             int rowsInserted = preparedStatement.executeUpdate();
 

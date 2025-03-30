@@ -1,8 +1,8 @@
 /**
- * hi
+ *
  */
 /**
- * hello 
+ * 
  */
 module javaproject {
 }
